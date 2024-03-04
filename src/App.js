@@ -7,17 +7,19 @@ import TodoReducer from './components/TodoReducer';
 import CallbackHook from './components/useCallback/CallbackHook';
 import TransitionHook from './components/useTransition/TransitionHook';
 import DeferredValueHook from './components/useDeferedValue/DeferredValueHook';
+import LayoutEffectHook from './components/useLayout/LayoutEffectHook';
 
 function App() {
   return (
-    <div className="App">
+    <div >
      {/* <MemoHook/> */}
      {/* <RefHook /> */}
      {/* <ReducerHook/> */}
      {/* <TodoReducer /> */}
      {/* <CallbackHook/> */}
      {/* <TransitionHook/> */}
-     <DeferredValueHook/> 
+     {/* <DeferredValueHook/>  */}
+     <LayoutEffectHook/>
     </div>
   );
 }
