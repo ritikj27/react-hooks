@@ -6,6 +6,7 @@ import ReducerHook from './components/ReducerHook';
 import TodoReducer from './components/TodoReducer';
 import CallbackHook from './components/useCallback/CallbackHook';
 import TransitionHook from './components/useTransition/TransitionHook';
+import DeferredValueHook from './components/useDeferedValue/DeferredValueHook';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
      {/* <ReducerHook/> */}
      {/* <TodoReducer /> */}
      {/* <CallbackHook/> */}
-     <TransitionHook/>
+     {/* <TransitionHook/> */}
+     <DeferredValueHook/> 
     </div>
   );
 }
