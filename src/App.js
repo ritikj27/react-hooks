@@ -8,10 +8,11 @@ import CallbackHook from './components/useCallback/CallbackHook';
 import TransitionHook from './components/useTransition/TransitionHook';
 import DeferredValueHook from './components/useDeferedValue/DeferredValueHook';
 import LayoutEffectHook from './components/useLayout/LayoutEffectHook';
+import ImperativeHook from './components/useImperative/ImperativeHook';
 
 function App() {
   return (
-    <div >
+    <div className="App">
      {/* <MemoHook/> */}
      {/* <RefHook /> */}
      {/* <ReducerHook/> */}
@@ -19,7 +20,8 @@ function App() {
      {/* <CallbackHook/> */}
      {/* <TransitionHook/> */}
      {/* <DeferredValueHook/>  */}
-     <LayoutEffectHook/>
+     {/* <LayoutEffectHook/> */}
+     <ImperativeHook />
     </div>
   );
 }

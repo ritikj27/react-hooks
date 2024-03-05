@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* styles.css */
+button:focus {
+  outline: none; /* Removes default outline */
+  background-color: red; /* Change the background color when focused */
+  color: white; /* Change the text color when focused */
+}
