@@ -9,6 +9,7 @@ import TransitionHook from './components/useTransition/TransitionHook';
 import DeferredValueHook from './components/useDeferedValue/DeferredValueHook';
 import LayoutEffectHook from './components/useLayout/LayoutEffectHook';
 import ImperativeHook from './components/useImperative/ImperativeHook';
+import IDHook from './components/useId/IDHook';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
      {/* <TransitionHook/> */}
      {/* <DeferredValueHook/>  */}
      {/* <LayoutEffectHook/> */}
-     <ImperativeHook />
+     {/* <ImperativeHook /> */}
+     <IDHook/>
     </div>
   );
 }
